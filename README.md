@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PWA-TodoList
 
-## Getting Started
+> a to do list with the ability download as apllication to do, edit and delete
 
-First, run the development server:
+
+
+![Logo](https://github.com/mahdihagollahi/TodoWithNext/blob/main/src/app/assets/Img/Logo.png)
+
+
+
+
+## Installation
+
+> First, clone the project
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/mahdihagollahi/PWA-TodoList.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> to run PWA-TodoList with npm
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+cd PWA-TodoList
+  npm install
+  npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Screenshots
 
-## Learn More
+![App Screenshot](https://github.com/mahdihagollahi/TodoWithNext/blob/main/src/app/assets/Img/Screen%20Light.png)
 
-To learn more about Next.js, take a look at the following resources:
+![Commit Badge](https://github.com/mahdihagollahi/TodoWithNext/blob/main/src/app/assets/Img/Screen%20Dark.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Commit Badge](https://github.com/mahdihagollahi/TodoWithNext/blob/main/src/app/assets/Img/Screen%20Do.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Support
 
-## Deploy on Vercel
+> For support, email haghollahimahdi@gmail.com or join our Slack channel.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Authors
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [mahdihaghollahi](https://github.com/mahdihagollahi)
