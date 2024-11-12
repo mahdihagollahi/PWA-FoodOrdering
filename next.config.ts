@@ -1,17 +1,19 @@
-import type { NextConfig } from "next";
+const {
+  PHASE_DEVELOPMENT_SERVER,
+  PHASE_PRODUCTION_BUILD,
+} = require("next/constants");
 
-const withPWA = require("@ducanh2912/next-pwa").default({
-  dest: "public",
-  cacheOnFrontEndNav:true,
-  aggressiveFrontEndNavCaching:true,
-  reloadOnOnline:true,
-  swcMinify:true,
-  disable:false,
-  workboxOptions:{
-    disableDevLogs:true,
+/** @type {import("next").NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+};
+
+module.exports = (phase) => {
+  if (phase === PHASE_DEVELOPMENT_SERVER || phase === PHASE_PRODUCTION_BUILD) {
+    const withPWA = require("@ducanh2912/next-pwa").default({
+      dest: "public",
+    });
+    return withPWA(nextConfig);
   }
-});
-
-const nextConfig: NextConfig = {};
-
-export default withPWA(nextConfig);
+  return nextConfig;
+};
