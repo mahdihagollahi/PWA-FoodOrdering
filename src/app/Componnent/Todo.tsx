@@ -11,7 +11,7 @@ interface user  {
  
 }
 
-const Todos:React.FC<user> = ({ event, state }) =>{
+const Todos:React.FC<user> = () =>{
   const [newTitle, setNewTitle] = useState<string>("");
   const dispatch = useDispatch(); 
   const todos = useSelector((state:RootState) => state.todo.todos); 
@@ -63,5 +63,3 @@ const Todos:React.FC<user> = ({ event, state }) =>{
 }
 
 export default Todos;
-
-

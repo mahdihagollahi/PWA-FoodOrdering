@@ -53,8 +53,8 @@
       }
      
     ],
-    "theme_color": "inherit",
-    "background_color": "inherit",
+    "theme_color": "#FFFFFF",
+    "background_color": "#FFFFFF",
     "start_url": "/",
     "display": "standalone",
     "orientation": "portrait"
