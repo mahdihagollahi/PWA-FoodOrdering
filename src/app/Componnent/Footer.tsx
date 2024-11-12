@@ -22,7 +22,7 @@ function Footer() {
           </svg>
           <p>Copyright © 2024 - All right reserved</p>
         </aside>
-        <nav className="grid-flow-col ml-32 md:mr-0 gap-4 md:place-self-center md:justify-self-end  ">
+        <nav className="grid-flow-col ml-40 md:mr-0 gap-4 md:place-self-center md:justify-self-end  ">
           <a>
             <svg
               xmlns="http://www.w3.org/2000/svg"
